@@ -1,0 +1,64 @@
+{
+    "userInfo": {
+        "username": "admin",
+        "password": "123456",
+        "email": "admin@example.com",
+        "type": "solo",
+        "FirstName": "John",
+        "LastName": "Doe",
+        "watches": [
+            {
+                "watchId": "1234567890",
+                "watchName": "Watch 1",
+                "password": "123456",
+                "status": "active",
+                "watchPrice": 10.00,
+                "orderDate": "2025-01-01",
+                "Apps": [
+                    {
+                        "appId": "1234567890",
+                        "appName": "App 1",
+                        "appDescription": "App 1 description",
+                        "appPrice": 10.00,
+                        "link": "https://www.google.com",
+                        "Icon": "app1.jpg"
+                    },
+                    {
+                        "appId": "1234567890",
+                        "appName": "App 1",
+                        "appDescription": "App 1 description",
+                        "appPrice": 10.00,
+                        "link": "https://www.google.com",
+                        "Icon": "app1.jpg"
+                    }
+                ]
+            },
+            {
+                "watchId": "1234567890",
+                "watchName": "Watch 2",
+                "password": "123456",
+                "status": "active",
+                "watchPrice": 10.00,
+                "orderDate": "2025-01-01",
+                "Apps": [
+                    {
+                        "appId": "1234567890",
+                        "appName": "App 1",
+                        "appDescription": "App 1 description",
+                        "appPrice": 10.00,
+                        "link": "https://www.google.com",
+                        "Icon": "app1.jpg"
+                    },
+                    {
+                        "appId": "1234567890",
+                        "appName": "App 1",
+                        "appDescription": "App 1 description",
+                        "appPrice": 10.00,
+                        "link": "https://www.google.com",
+                        "Icon": "app1.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+}
