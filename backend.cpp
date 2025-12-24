@@ -591,10 +591,10 @@ void updateApp(MYSQL* conn,string appid,string name = "",string description = ""
     }
 int main() {
     //allows pointer to find my port 
-    const char* host = "127.0.0.1";            // Force TCP to avoid socket quirks
-    const char* user = "root";
-    const char* pass = "newlatiospower";
-    const char* dbName = "appStore";
+    const char* host = "";            // Force TCP to avoid socket quirks
+    const char* user = "";
+    const char* pass = "";
+    const char* dbName = "";
     const unsigned int port = 3306;
     
     cout << "[INFO] Initializing MySQL client..." << endl;
