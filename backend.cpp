@@ -1,4 +1,5 @@
 #include <mysql/mysql.h>
+#include "privateinfo.cpp"
 #include <iostream>
 #include <string>
 #include <vector>
@@ -591,11 +592,7 @@ void updateApp(MYSQL* conn,string appid,string name = "",string description = ""
     }
 int main() {
     //allows pointer to find my port 
-    const char* host = "";            // Force TCP to avoid socket quirks
-    const char* user = "";
-    const char* pass = "";
-    const char* dbName = "";
-    const unsigned int port = 3306;
+
     
     cout << "[INFO] Initializing MySQL client..." << endl;
     MYSQL* conn = mysql_init(nullptr);

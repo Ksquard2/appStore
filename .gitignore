@@ -1,0 +1,71 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+/bin/
+*.o
+*.obj
+*.exe
+a.out
+backend
+display
+
+# Logs
+*.log
+
+# Node / Python / caches
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# SSH / keys / certs
+.ssh/
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+login.json
+*password*
+*credentials*
+*secret*
+
+# Other sensitive or local config
+run.sh
+local_settings.json
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+Icon?
+
+# Ignore files with sensitive extensions if present
+*.pem
+*.key
+
+# If you accidentally committed sensitive files already, see README or note below
+
+# Project-specific private files
+privateinfo.cpp
+
+# --- End of file
