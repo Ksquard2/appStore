@@ -1,0 +1,35 @@
+{
+    "devInfo": {
+        "devId": "1234567890",
+        "devName": "Dev 1",
+        "devDescription": "Dev 1 description",
+        "devIcon": "dev1.jpg",
+        "devEmail": "dev1@gmail.com",
+        "apps": [
+            {
+                "appId": "1234567890",
+                "appName": "App 1",
+                "appDescription": "App 1 description",
+                "appPrice": 10.00,
+                "link": "https://www.google.com",
+                "Icon": "app1.jpg"
+            },
+            {
+                "appId": "1234567890",
+                "appName": "App 1",
+                "appDescription": "App 1 description",
+                "appPrice": 10.00,
+                "link": "https://www.google.com",
+                "Icon": "app1.jpg"
+            },
+            {
+                "appId": "1234567890",
+                "appName": "App 1",
+                "appDescription": "App 1 description",
+                "appPrice": 10.00,
+                "link": "https://www.google.com",
+                "Icon": "app1.jpg"
+            }
+        ]
+    }
+}

@@ -87,7 +87,15 @@ void displayUser(const User &u, int userIndex){
         displayWatch(w, watchBaseIndent);
     }
 }
-
+struct App{
+    string appId;
+    string appName;
+    string description;
+    double appPrice;
+    string link;
+    string Icon;
+    Dev developer;
+}
 // set all watches for a user to active
 void setAllWatchesActive(User &u){
     for(auto &w : u.watches) w.status = "active";
