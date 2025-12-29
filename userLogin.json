@@ -60,39 +60,7 @@
                 ]
             }
         ]
-    },
-    "appStore":[
-        {
-            
-            "appId": "1234567890",
-            "devId": "1234567890",
-            "appName": "App 1",
-            "appDescription": "App 1 description",
-            "appPrice": 10.00,
-            "link": "https://www.google.com",
-            "Icon": "app1.jpg"
-            
-        },
-        {
-
-            "appId": "1234567890",
-            "devId": "1234567890",
-            "appName": "App 1",
-            "appDescription": "App 1 description",
-            "appPrice": 10.00,
-            "link": "https://www.google.com",
-            "Icon": "app1.jpg"
-        },
-        {
-            
-            "appId": "1234567890",
-            "devId": "1234567890",
-            "appName": "App 1",
-            "appDescription": "App 1 description",
-            "appPrice": 10.00,
-            "link": "https://www.google.com",
-            "Icon": "app1.jpg"
-        }
-    ]
+    }
+   
 
 }
